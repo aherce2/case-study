@@ -1,5 +1,5 @@
 from config import PRODUCTS, BASE_PROMPT, OLLAMA_BASE_URL, LLM_MODEL, EMBEDDING_MODEL, DOCS_FOLDER, VECTOR_DB_PATH
-from server.agent import OllamaRAGAgent
+from agent import OllamaRAGAgent
 
 def main():
     print("Initializing Agent...")

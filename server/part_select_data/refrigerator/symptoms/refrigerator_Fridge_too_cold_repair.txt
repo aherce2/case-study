@@ -1,0 +1,81 @@
+Source URL: https://www.partselect.com/Repair/Refrigerator/Refrigerator-Too-Cold/
+
+REPAIR > REFRIGERATOR > FRIDGE TOO COLD
+How To Fix A Refrigerator That's Too Cold
+Click a Part Below to Start Your Repair:
+Air Inlet Damper Or Baffle Temperature Sensor Or Thermistor Main Control Board Cold Control Or Temperature Control
+About this repair:
+Rated as REALLY EASY
+257 repair stories
+2 step by step videos
+Want Mr. Appliance to fix that broken Refrigerator?
+Schedule Service
+Air Inlet Damper Or Baffle
+
+The air damper, baffle or diffuser is the device that balances the air flow from the evaporator fan housing. This normally is a mechanically controlled baffle or flapper that controls the amount of cold air entering the fresh food compartment. If the baffle is damaged or the linkage to the control knob is damaged, then too much cold air may enter the fresh food compartment resulting in lower than normal temperatures. The baffle or damper will be located where the cold air enters the fresh food compartment. The housing that the baffle or damper is encased in is often made of plastic with a Styrofoam lining and may have a foam seal to prevent air leakage.
+
+How to inspect a refrigerator’s air inlet damper or baffle:
+
+Unplug your refrigerator and locate the damper or baffle. It is usually found where the cold air enters the fresh food compartment.
+Use caution when inspecting the baffle or damper to not damage the plastic & Styrofoam housing that the baffle or damper is encased in.
+If your model of has a temperature sensing bulb attached to this control make sure that the sensing bulb is in the correct position and not damaged.
+The control knob should move freely, try to move it to verify that the linkage is intact and that it moves freely.
+If the damper/baffle is stuck in the closed or nearly closed position or does not move freely, then you need a replacement air inlet damper or baffle.
+Start Your Repair Here
+View All Refrigerator Parts
+SEARCH
+Need help finding your model number?
+Back to Top
+Temperature Sensor Or Thermistor
+
+Some electronic controls models will use a thermistor to sense the temperature. The electronic control monitors this temperature and will automatically adjust the damper. The temperature sensor is normally a plastic encased capsule with two wires attached and may be located near the air inlet. The thermistor will have a specific resistance based on temperature and is therefore difficult to diagnose without the manufacturer’s specifications. Some models may indicate a fault code when the sensor is faulty.
+
+How to test a refrigerator temperature sensor or thermistor with a multi-meter:
+
+Verify that you have disconnected your appliance from the power source as you will be inspecting electrical components.
+The thermistor(s) will be connected to the main control board, you will need to remove the back panel of your fridge to access the control board. Remove the thermistor(s) from the appliance in order to test them.
+Thermistor(s) will produce different multi-meter readings based on their temperature when you test them. The ranges below only apply to thermistors at 32 degrees F. Before testing them, you will need to place the thermistor(s) in ice water for 5 minutes to bring the temperature to 32 degrees F.
+Set your multi-meter to the Rx1 setting and touch the probes to the terminals, you should receive a reading of 16,600 ohms (+/- 5 percent).
+If you receive a reading outside this range, you will need a replacement temperature sensor or thermistor.
+Start Your Repair Here
+View All Refrigerator Sensors
+SEARCH
+Need help finding your model number?
+Back to Top
+Main Control Board
+
+Some newer models may have an electronic control board that controls all of the refrigerators functions. Sensors are connected to the board that monitor fresh food and freezer compartment temperatures and the control board will use that information to operate the compressor and fans as well as the defrost system and in some cases the air baffle/damper to balance temperatures. A defective control board could cause a symptom of the fresh food compartment being too cold, but you should first eliminate the sensors and the damper before changing the control. Some manufacturers may provide detailed information on the procedure for testing the board and the sensors.
+
+How to inspect a refrigerator’s main control board:
+
+Disconnect your refrigerator from the power source, you will be inspecting electrical components.
+The main control board is usually found inside the control box, which is inside the fridge, attached to the top or side of the fridge. Locate and remove the main control board from your appliance.
+Looking for any signs of damaged foil, wear, burnt connections, arcing, or any other damage, inspect your main control board.
+If you find any of the above, you need a replacement main control board.
+Start Your Repair Here
+View All Refrigerator Circuit Boards and Touch Pads
+SEARCH
+Need help finding your model number?
+Back to Top
+Cold Control Or Temperature Control
+
+The cold control thermostat monitors the temperature inside the refrigerator and will operate the compressor and fans when the temperature rises. The control is often labeled as the refrigerator control but in some models may be called the freezer control. The control will have wires attached to it that operate the compressor circuit and will normally have an "off" setting on the knob. If the control is defective it may create a symptom of the fresh food section being too cold but would also lower the temperature in the freezer compartment as well, and the compressor would run longer than normal. Try adjusting both controls starting at the middle settings and monitor the temperatures for 24 hours before making any further adjustments.
+
+How to test your fridge’s cold control & temperature control with a multi-meter:
+
+You will be handling electrical components, ensure you have disconnected the power source from your appliance before beginning. Begin by locating your control, it will be inside the fridge, usually in the fresh food section control panel, likely located directly behind the temperature adjustment knob.
+After locating it, remove the control from the fridge, set the control to the lowest (warmest) setting, place your multi-meter on the Rx1 setting, and touch the probes to the terminals to test for continuity. You should receive a reading of infinity.
+While still touching the terminals with the probes, change the control to a colder (higher) setting. This should change the reading from infinity to zero.
+If your control fails either of the tests above, you will need a replacement cold control & temperature control.
+Start Your Repair Here
+View All Refrigerator Parts
+SEARCH
+Need help finding your model number?
+Back to Top
+More Repair Parts
+
+Still not sure which part is broken? We can offer you custom troubleshooting help if you search with your model number.
+
+Enter model or part number
+SEARCH
+Need help finding your model number?

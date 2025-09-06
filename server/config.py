@@ -21,5 +21,5 @@ If asked about other appliances or topics outside {product_list_str} repairs, po
 OLLAMA_BASE_URL = "http://localhost:11434"
 LLM_MODEL = "gemma3:latest"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
-DOCS_FOLDER = "part_select_datas"
+DOCS_FOLDER = "part_select_data"
 VECTOR_DB_PATH = "vector_db"
