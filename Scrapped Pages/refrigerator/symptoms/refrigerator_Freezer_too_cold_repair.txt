@@ -1,0 +1,50 @@
+Source URL: https://www.partselect.com/Repair/Refrigerator/Freezer-Too-Cold/
+
+REPAIR > REFRIGERATOR > FREEZER TOO COLD
+How To Fix A Refrigerator Freezer That's Too Cold
+Click a Part Below to Start Your Repair:
+Air Damper Or Freezer Control Temperature Sensor Or Thermistor
+About this repair:
+Rated as REALLY EASY
+44 repair stories
+1 step by step video
+Want Mr. Appliance to fix that broken Refrigerator?
+Schedule Service
+Air Damper Or Freezer Control
+
+If the freezer section is too cold and the fresh food section temperature is normal you should suspect that the air damper or freezer control is adjusted improperly or may be defective, and is deflecting more than the normal amount of air into the freezer section and not enough into the fresh food compartment to satisfy the cold control and turn off the compressor.
+
+How to inspect a refrigerator’s air damper or freezer control:
+
+Unplug your refrigerator before beginning.
+Locate your air damper or freezer control. It will usually be found in the fresh food compartment, behind a vent found on the top or side of the fridge.
+Remove the vent and inspect the damper flap for any signs of wear or damage, attempt to manually move the flap. You should feel little or no resistance.
+If you find any issues when performing the above checks, you will need a replacement air damper or freezer control. If you do not find the issue, suspect the evaporator coils or motor.
+Start Your Repair Here
+View All Refrigerator Parts
+SEARCH
+Need help finding your model number?
+Back to Top
+Temperature Sensor Or Thermistor
+
+In models that use an Electronic Control, a thermistor or temperature sensor may be used to monitor fresh food and freezer temperatures. The control board uses this information to turn on the compressor and fan circuits as well as to operate the damper control on some models. If the sensor becomes damaged or defective it may incorrectly signal the control board to close the air damper too much and result in colder than normal freezer temperatures. Individual manufacturers may have specific information available to test these sensors, depending on the model involved, and may also provide a fault code on the electronic control board on some models.
+
+How to test a refrigerator temperature sensor or thermistor with a multi-meter:
+
+Disconnect your refrigerator from the power source and then remove the back panel of your refrigerator to locate the main control board.
+Locate and remove the thermistor(s), they will be attached to the main control board.
+Place the thermistor(s) in ice water for 5 minutes before testing. The amount of resistance in a thermistor varies based on what their surface temperature is when they are measured. The range below only applies to thermistors measured at 32 degrees F.
+Using a multi-meter on Rx1 mode, touch the terminals with the meter’s probes. The test should produce a reading of 16,600 ohms (+/- 5 percent).
+If you receive a reading outside this range, you will need a replacement temperature sensor or thermistor.
+Start Your Repair Here
+View All Refrigerator Sensors
+SEARCH
+Need help finding your model number?
+Back to Top
+More Repair Parts
+
+Still not sure which part is broken? We can offer you custom troubleshooting help if you search with your model number.
+
+Enter model or part number
+SEARCH
+Need help finding your model number?
