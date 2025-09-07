@@ -5,21 +5,42 @@ import json
 import re
 import urllib.parse
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, ElementClickInterceptedException
 from bs4 import BeautifulSoup
 
+
 class PartSelectScraper:
-    def __init__(self, driver_path=None, products=None):
+    def __init__(self, driver_path=None, products=None, headless=True):
         self.driver_path = driver_path
         self.products = products or ["Refrigerator", "Dishwasher"]
+        self.headless = headless
     
     def _init_driver(self):
+        # if self.driver_path:
+        #     return webdriver.Chrome(executable_path=self.driver_path)
+        # return webdriver.Chrome()
+        chrome_options = Options()
+        
+        if self.headless:
+            chrome_options.add_argument("--headless")
+            chrome_options.add_argument("--no-sandbox")
+            chrome_options.add_argument("--disable-dev-shm-usage")
+            chrome_options.add_argument("--disable-gpu")
+            chrome_options.add_argument("--window-size=1920,1080")
+        
+        # Additional options for better scraping
+        chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+        chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+        chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        chrome_options.add_experimental_option('useAutomationExtension', False)
+        
         if self.driver_path:
-            return webdriver.Chrome(executable_path=self.driver_path)
-        return webdriver.Chrome()
+            return webdriver.Chrome(executable_path=self.driver_path, options=chrome_options)
+        return webdriver.Chrome(options=chrome_options)
 
     def check_robots_txt(self):
         robots_url = "https://www.partselect.com/robots.txt"

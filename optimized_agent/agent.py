@@ -311,6 +311,7 @@ class PartSelectAgent:
             products=config.scraping.PRODUCTS,
             timeout=config.scraping.DEFAULT_TIMEOUT,
             save_dir=config.database.SCRAPED_DATA_DIR
+            
         )
         self.function_manager = FunctionManager(self.scraper)
         
