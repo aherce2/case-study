@@ -1,8 +1,7 @@
 from agent import PartSelectAgent
 from config import LLM_MODEL
 def main():
-    """Example usage with enhanced interface"""
-    print("🔧 Initializing Enhanced PartSelect Agent...")
+    print("Initializing Enhanced PartSelect Agent...")
     
     # Custom configuration example
     custom_config = {

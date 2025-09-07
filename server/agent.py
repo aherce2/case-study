@@ -238,25 +238,25 @@ class OllamaRAGAgent:
         context = "\n".join(context_parts) if context_parts else ""
 
         prompt = f"""{self.system_prompt}
-Context from documentation:
-{context}
+        Context from documentation:
+        {context}
 
-User question: {user_query}
+        User question: {user_query}
 
-Instructions for response:
-- If the user asks for a repair, give a clear, step-by-step set of instructions in plain language.
-- Mention the estimated difficulty and time if available.
-- Only include links if they are directly relevant (no duplicates).
-- At the end, ask a helpful follow-up question (e.g., whether they want part numbers, tools needed, or video guides).
-- Be concise but friendly, like a customer service technician.
+        Instructions for response:
+        - If the user asks for a repair, give a clear, step-by-step set of instructions in plain language.
+        - Mention the estimated difficulty and time if available.
+        - Only include links if they are directly relevant (no duplicates).
+        - At the end, ask a helpful follow-up question (e.g., whether they want part numbers, tools needed, or video guides).
+        - Be concise but friendly, like a customer service technician.
 
-You have access to the following function:
-get_part_information(model_number: string) - searches for a model number and returns page content.
-If you decide to call this function, your entire response MUST be exactly in this format:
-[get_part_information(model_number="MODELNUMBER")]
-Replace MODELNUMBER with the requested model number.
-Do NOT include any other text if you call a function.
-Answer:"""
+        You have access to the following function:
+        get_part_information(model_number: string) - searches for a model number and returns page content.
+        If you decide to call this function, your entire response MUST be exactly in this format:
+        [get_part_information(model_number="MODELNUMBER")]
+        Replace MODELNUMBER with the requested model number.
+        Do NOT include any other text if you call a function.
+        Answer:"""
         response = self.call_ollama(prompt)
         return response
 

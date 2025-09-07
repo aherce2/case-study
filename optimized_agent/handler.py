@@ -7,7 +7,7 @@ from typing import Dict, List, Optional, Tuple, Any, Callable
 from dataclasses import dataclass
 from abc import ABC, abstractmethod
 
-from optimized_scraping import PartSelectScraper, ScrapingResult, PartInfo
+from optimized_agent.scraper import PartSelectScraper, ScrapingResult, PartInfo
 from config import config
 
 logger = logging.getLogger(__name__)

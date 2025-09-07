@@ -17,11 +17,10 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Import our modular components
 from config import config, SystemPrompts
 from conversation_manager import ConversationManager, ConversationContext
 from handler import FunctionManager, FunctionCallParser
-from optimized_scraping import PartSelectScraper
+from optimized_agent.scraper import PartSelectScraper
 from semantic_cache import OllamaSemanticCache
 from utils import chunk_text, sanitize_filename
 
@@ -277,7 +276,6 @@ class LLMService:
 
 
 class PartSelectAgent:
-    """Main PartSelect agent with improved architecture"""
     
     def __init__(self, custom_config: Dict[str, Any] = None):
         # Apply custom configuration if provided
@@ -408,7 +406,6 @@ class PartSelectAgent:
         return "\n\n".join(context_parts)
     
     def chat(self, user_input: str, conversation_id: str = "default") -> str:
-        """Enhanced chat interface with improved function calling"""
         # Get conversation context
         conversation = self.conversation_manager.get_or_create_conversation(conversation_id)
         

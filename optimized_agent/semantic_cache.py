@@ -16,7 +16,7 @@ from tenacity import (
 )
 
 from sklearn.metrics.pairwise import cosine_similarity
-from ollama import Client  # assumes ollama python client is installed
+from ollama import Client
 
 # ---------------- CONFIGURATION ----------------
 class Config:
@@ -47,7 +47,7 @@ retry_config = {
         min=Config.RETRY_MIN_WAIT,
         max=Config.RETRY_MAX_WAIT
     ),
-    "retry": retry_if_exception_type((Exception,)),  # You can customize exceptions
+    "retry": retry_if_exception_type((Exception,)), 
     "before_sleep": before_sleep_callback,
     "reraise": True
 }
